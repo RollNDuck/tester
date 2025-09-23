@@ -1,5 +1,5 @@
 {
   "typeCheckingMode": "strict",
-  "strictFunctionTypes": true,
-  "reportUntypedFunctionDecorator": "error"
+  "include": ["."],
+  "exclude": ["**/venv", "**/node_modules", "**/__pycache__"]
 }
