@@ -3,12 +3,10 @@ name: Pyright Type Check
 on:
   push:
     branches:
-      - v5
-      - v7
+      - main
   pull_request:
     branches:
-      - v5
-      - v7
+      - main
   workflow_dispatch:
 
 jobs:
